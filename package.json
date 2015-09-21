@@ -1,0 +1,24 @@
+{
+  "name": "electron-webview-example",
+  "productName" : "Loopline Systems",
+  "version": "1.0.0",
+  "description": "Example project to show Electron webview functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/electron-webview-example.git"
+  },
+  "author": "Stefan Judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/electron-webview-example/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/electron-webview-example#readme",
+  "devDependencies": {
+    "electron-debug": "^0.2.1",
+    "electron-prebuilt": "^0.33.0"
+  }
+}
