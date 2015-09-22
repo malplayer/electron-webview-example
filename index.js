@@ -3,8 +3,6 @@
 const app           = require( 'app' );
 const BrowserWindow = require( 'browser-window' );
 
-
-
 require( 'electron-debug' )();
 require( 'crash-reporter' ).start();
 
