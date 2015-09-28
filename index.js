@@ -21,7 +21,9 @@ app.on( 'ready', () => {
 
   win.loadUrl( 'https://login.loopline-systems.com' );
 
+  win.webContents.executeJavaScript( `
+    alert( 'Welcome CodeTalks' );
+  ` );
+
   win.on( 'closed', app.quit );
 } );
-
-
